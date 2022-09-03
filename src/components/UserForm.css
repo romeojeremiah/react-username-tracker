@@ -1,0 +1,38 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+label {
+    font-weight: 700;
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+}
+
+input {
+    height: 2.25rem;
+    padding: 0.25rem;
+    font-family: inherit;
+    font-size: 1.25rem;
+    border-radius: 5px;
+}
+
+input.invalid {
+    background-color: rgb(224, 153, 145);
+}
+
+button {
+    background-color: purple;
+    color: white;
+    border: none;
+    height: 2.25rem;
+    font-size: 1.25rem;
+    transition: 0.3s all linear;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
